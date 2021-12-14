@@ -23,6 +23,7 @@ export const ColumnHeader = ({ column, setBoard }) => {
   const handleOpen = (identifier) => {
     if (identifier === 'renameColumn') {
       setIsOpenRenameColumn(true);
+      setColumnName(title);
     }
 
     if (identifier === 'addCard') {
@@ -112,11 +113,13 @@ export const ColumnHeader = ({ column, setBoard }) => {
           <div className="input-field">
             <input
               id="column_title"
+              className="autocomplete"
               type="text"
               value={columnName}
+              autoFocus
               onChange={(event) => setColumnName(event.target.value)}
             />
-            <label htmlFor="card_title">Column Name</label>
+            <label htmlFor="column_title">Column Name</label>
           </div>
           <div className="row center">
             <button
@@ -144,6 +147,7 @@ export const ColumnHeader = ({ column, setBoard }) => {
           <div className="input-field">
             <input
               id="card_title"
+              className="autocomplete"
               type="text"
               value={cardTitle}
               onChange={(event) => setCardTitle(event.target.value)}

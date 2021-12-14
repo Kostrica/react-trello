@@ -9,6 +9,10 @@
   border: none;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
 .button:focus {
   background-color: #eee;
   border: 2px solid gray;

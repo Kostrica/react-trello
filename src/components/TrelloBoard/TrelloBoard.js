@@ -4,6 +4,7 @@ import Board, { moveCard, moveColumn } from '@asseinfo/react-kanban';
 import '@asseinfo/react-kanban/dist/styles.css';
 import { RenderColumnAdder } from "../RenderColumnAdder/RenderColumnAdder";
 import { ColumnHeader } from "../ColumnHeader/ColumnHeader";
+import { Card } from "../Card/Card";
 
 const initialBoard = {
   columns: [
@@ -49,6 +50,7 @@ export const TrelloBoard = () => {
     <Board
       renderColumnAdder={() => <RenderColumnAdder setBoard={setBoard} />}
       renderColumnHeader={(column) => <ColumnHeader column={column} setBoard={setBoard} />}
+      renderCard={(content) => <Card content={content} setBoard={setBoard} />}
       allowAddColumn
       onCardDragEnd={handleCardMove}
       onColumnDragEnd={handleColumnMove}
