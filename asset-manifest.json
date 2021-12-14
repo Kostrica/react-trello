@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-trello/static/css/main.1c568b6c.chunk.css",
+    "main.js": "/react-trello/static/js/main.62e32f25.chunk.js",
+    "main.js.map": "/react-trello/static/js/main.62e32f25.chunk.js.map",
+    "runtime-main.js": "/react-trello/static/js/runtime-main.4ea06db0.js",
+    "runtime-main.js.map": "/react-trello/static/js/runtime-main.4ea06db0.js.map",
+    "static/css/2.98e3f5b1.chunk.css": "/react-trello/static/css/2.98e3f5b1.chunk.css",
+    "static/js/2.b9bfa91f.chunk.js": "/react-trello/static/js/2.b9bfa91f.chunk.js",
+    "static/js/2.b9bfa91f.chunk.js.map": "/react-trello/static/js/2.b9bfa91f.chunk.js.map",
+    "static/js/3.70970962.chunk.js": "/react-trello/static/js/3.70970962.chunk.js",
+    "static/js/3.70970962.chunk.js.map": "/react-trello/static/js/3.70970962.chunk.js.map",
+    "index.html": "/react-trello/index.html",
+    "static/css/2.98e3f5b1.chunk.css.map": "/react-trello/static/css/2.98e3f5b1.chunk.css.map",
+    "static/css/main.1c568b6c.chunk.css.map": "/react-trello/static/css/main.1c568b6c.chunk.css.map",
+    "static/js/2.b9bfa91f.chunk.js.LICENSE.txt": "/react-trello/static/js/2.b9bfa91f.chunk.js.LICENSE.txt",
+    "static/media/add-svgrepo-com.34e2c0d2.svg": "/react-trello/static/media/add-svgrepo-com.34e2c0d2.svg",
+    "static/media/cross_svgrepo_com.a1aa49b0.svg": "/react-trello/static/media/cross_svgrepo_com.a1aa49b0.svg",
+    "static/media/pencil-svgrepo-com.f54eb878.svg": "/react-trello/static/media/pencil-svgrepo-com.f54eb878.svg",
+    "static/media/remove-all-svgrepo-com.945a1ba9.svg": "/react-trello/static/media/remove-all-svgrepo-com.945a1ba9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ea06db0.js",
+    "static/css/2.98e3f5b1.chunk.css",
+    "static/js/2.b9bfa91f.chunk.js",
+    "static/css/main.1c568b6c.chunk.css",
+    "static/js/main.62e32f25.chunk.js"
+  ]
+}
